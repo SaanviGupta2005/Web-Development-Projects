@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(181, 231, 233);
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald';
+    text-decoration:underline;
+    font-size: 60px;
+    font-weight: normal;
+    color: rgb(8, 8, 68);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#whyus{
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Secular one';
+    background-color: rgb(54, 163, 213);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    width: fit-content;
+    padding: 30px;
+    /* shape */
+    color: white;
+}
+
+#nav1 {
+    background-color: rgb(94, 185, 233);
+    /* margin: 0px; */
+    padding: 2px;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(60, 140, 182);
+    }
+
+    to {
+        background-color: rgb(147, 226, 246);
+    }
+}
+
+@keyframes example2 {
+    from {
+        border-color: aliceblue;
+    }
+
+    to {
+        border-color: black;
+    }
+}
+
+/* The element to apply the animation to */
+#nav1 {
+    animation-name: example;
+    animation-duration: 1.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+img {
+    animation-name: example2;
+    animation-duration: 1.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.dance{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+img{
+    float: right;
+    width: 370px;
+    border-radius:360px;
+    border-width: 2px;
+    border-color: aliceblue;
+    padding: 20px;
+}
